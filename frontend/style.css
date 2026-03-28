@@ -1,0 +1,25 @@
+body{
+    font-family: Arial;
+    padding:40px;
+    width: 50vw;
+    margin: auto;
+}
+
+.todo{
+    border:2px solid black;
+    padding:10px;
+    margin:10px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.todo-info{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.todo-btn button{
+    margin-left:5px;
+}
