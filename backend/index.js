@@ -1,12 +1,12 @@
 const express = require("express")
 const uuid = require("uuid")
-// const cors = require("cors")
+const cors = require("cors")
 const port = 3700
 
 // u know like creating a scanner class obj
 const app = express()
 app.use(express.json())
-// app.use(cors())
+app.use(cors())
 
 let todos = [
     {
