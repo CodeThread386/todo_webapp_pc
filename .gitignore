@@ -1,7 +1,10 @@
-# Secrets — never commit (use Render/Vercel env dashboard)
 .env
 **/.env
+.env.local
+**/.env.local
 
-# Dependencies
 node_modules/
 **/node_modules/
+
+.vscode/
+**/.vscode/
