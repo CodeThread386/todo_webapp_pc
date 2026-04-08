@@ -1,0 +1,7 @@
+# Secrets — never commit (use Render/Vercel env dashboard)
+.env
+**/.env
+
+# Dependencies
+node_modules/
+**/node_modules/

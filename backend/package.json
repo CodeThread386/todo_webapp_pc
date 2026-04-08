@@ -1,19 +1,22 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "todo list web app",
+  "description": "",
   "license": "ISC",
-  "author": "sarthak trivedi",
+  "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev" : "nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
     "express": "^5.2.1",
-    "uuid": "^13.0.0"
+    "google-auth-library": "^10.6.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
