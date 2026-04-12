@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000"
+const BASE_URL = "https://todo-webapp-pc.onrender.com"
 
 const authScreen = document.getElementById("auth-screen")
 const appScreen = document.getElementById("app-screen")
